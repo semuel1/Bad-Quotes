@@ -27,4 +27,5 @@ Breaking Bad characters and their "bad" quotes
 # Wireframe
 Wireframe![image](https://user-images.githubusercontent.com/47265961/109835069-b7757980-7bf7-11eb-90d6-62a274c2170c.png)
 
-
+# Breaking Bad Api
+I will be using[Breaking Bad Api](https://breakingbadapi.com/documentation) to obtain all chararcter information and quotes
