@@ -22,3 +22,4 @@ Breaking Bad characters and their "bad" quotes
 * As a logged in user, I want a favorites list, where I can place my favorite characters and their quotes
 
 # ERD
+! [Wirephrame](https://wireframepro.mockflow.com/editor.jsp?editor=on&publicid=M337f5c903f9ab233fb3f1b391c72f4be1614714629069&perm=Create&projectid=M52f6768e29d9f1577bcde1f956c529ca1614714699267&ptitle=Breaking%20Bad&bgcolor=white&category=sketchui#/page/f12b018812ad48d6a4a590f076b0a68e)
