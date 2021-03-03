@@ -25,5 +25,6 @@ Breaking Bad characters and their "bad" quotes
  Erd![image](https://user-images.githubusercontent.com/47265961/109834560-2dc5ac00-7bf7-11eb-990c-7ab2d644da72.png)
 
 # Wireframe
-Wireframe![image](https://user-images.githubusercontent.com/47265961/109834646-46ce5d00-7bf7-11eb-9ba1-e330a285ccd5.png)
+Wireframe![image](https://user-images.githubusercontent.com/47265961/109835069-b7757980-7bf7-11eb-90d6-62a274c2170c.png)
+
 
