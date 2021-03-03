@@ -22,5 +22,8 @@ Breaking Bad characters and their "bad" quotes
 * As a logged in user, I want a favorites list, where I can place my favorite characters and their quotes
 
 # ERD
- Erd.png![image](https://user-images.githubusercontent.com/47265961/109834560-2dc5ac00-7bf7-11eb-990c-7ab2d644da72.png)
+ Erd![image](https://user-images.githubusercontent.com/47265961/109834560-2dc5ac00-7bf7-11eb-990c-7ab2d644da72.png)
+
+# Wireframe
+Wireframe![image](https://user-images.githubusercontent.com/47265961/109834646-46ce5d00-7bf7-11eb-9ba1-e330a285ccd5.png)
 
