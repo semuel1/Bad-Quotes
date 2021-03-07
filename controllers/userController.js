@@ -8,10 +8,10 @@ router.get('/new', (req, res) => {
     res.render('users/new')
 })
 
-router.get('/results', (req, res) => {
-    res.clearCookie('userId')
-    res.redirect('/')
-})
+// router.get('/results', (req, res) => {
+//     res.clearCookie('userId')
+//     res.redirect('/')
+// })
 
 router.get('/login', async (req, res) => {
     res.render('users/login')
@@ -49,13 +49,17 @@ router.post('/login', async (req, res) => {
         const user = await db.user.findOne({
             where: { username: req.body.username }
         })
-
-        if(user && bcrypt.compareSync(req.body.password, user.password)) {
-            const encryptedId = AES.encrypt(user.id.toString(), process.env.COOKIE_SECRET).toString()
-            res.cookie('userId', encryptedId)
+        console.log(req.body)
+        if(user && req.body.password === user.password) {
+            // const encryptedId = AES.encrypt(user.id.toString(), process.env.COOKIE_SECRET).toString()
+            
+            res.cookie('userId', req.body.user)
+            console.log("Youre logged in")
             res.redirect('/')
         } else {
+            console.log("youre not logged in")
             res.render("users/login", { errors: "Try again" })
+
         }
 
     } catch (err) {

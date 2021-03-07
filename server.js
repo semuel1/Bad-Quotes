@@ -37,8 +37,14 @@ app.get('/results', async (req, res) => {
 
         const badCharacter = response.data[0]
         console.log(badCharacter)
+        
+        if( badCharacter === undefined ) {
+          
+        }else {
+              badCharacter === response.data[0];
+              res.render('results', { badCharacter: badCharacter })
+        }
 
-        res.render('results', { badCharacter: badCharacter })
         
     } catch (err) {
         console.log(err)

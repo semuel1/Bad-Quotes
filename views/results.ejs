@@ -3,8 +3,12 @@
 <%= badCharacter.name %>
 </h2>
 <img src= "<%= badCharacter.img %>"> 
+<h3>
+    <%= badCharacter.quote %>
+</h3>
 <form method="POST" action="/characters">
     <input type="hidden" name="char_id" value="<%= badCharacter.char_id %>">
     <input type="hidden" name="name" value="<%= badCharacter.name%>">
+    <input type="hidden" name="quote" value="<%= badCharacter.quote %>">
     <input type="submit" value="Add to favorites">
 </form>
